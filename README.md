@@ -9,6 +9,7 @@ Mortgages, student and auto loans, and debt consolidation are just a few example
 In this assignment I will build and evaluate several machine learning models to predict credit risk using data we would typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), I will need to employ different techniques for training and evaluating models with imbalanced classes. I will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
 
 1. [Resampling](#Resampling)
+
 2. [Ensemble Learning](#Ensemble-Learning)
 
 - - -
@@ -33,19 +34,19 @@ First Phase:
 
 1. Read the CSV into a DataFrame.
 
-2. Split the data into Training and Testing sets.
+2. Spliced the data into Training and Testing sets.
 
-3. Scale the training and testing data using the `StandardScaler` from `sklearn.preprocessing`.
+3. Scaled the training and testing data using the `StandardScaler` from `sklearn.preprocessing`.
 
 4. Used the provided code to run a Simple Logistic Regression:
-    * Fit the `logistic regression classifier`.
+    * Fitted the `logistic regression classifier`.
     * Calculated the `balanced accuracy score`.
     * Displayed the `confusion matrix`.
     * Printed the `imbalanced classification report`.
 
 Second Phase:
 
-1. Oversample the data using the `Naive Random Oversampler` and `SMOTE` algorithms;
+1. Oversampled the data using the `Naive Random Oversampler` and `SMOTE` algorithms;
 
     a. Trained a `logistic regression classifier` from `sklearn.linear_model` using the resampled data.
 
@@ -55,7 +56,7 @@ Second Phase:
 
     d. Printed the `imbalanced classification report` from `imblearn.metrics`.
 
-2. Undersample the data using the `Cluster Centroids` algorithm;
+2. Undersampled the data using the `Cluster Centroids` algorithm;
 
     a. Trained a `logistic regression classifier` from `sklearn.linear_model` using the resampled data.
 
@@ -65,7 +66,7 @@ Second Phase:
 
     d. Printed the `imbalanced classification report` from `imblearn.metrics`.
 
-3. Over and undersample using a combination `SMOTEENN` algorithm;
+3. Over- and undersampled using a combination `SMOTEENN` algorithm;
 
     a. Trained a `logistic regression classifier` from `sklearn.linear_model` using the resampled data.
 
@@ -100,14 +101,14 @@ First Phase:
 
 1. Read the data into a DataFrame using the provided starter code.
 
-2. Split the data into training and testing sets.
+2. Spliced the data into training and testing sets.
 
-3. Scale the training and testing data using the `StandardScaler` from `sklearn.preprocessing`.
+3. Scaled the training and testing data using the `StandardScaler` from `sklearn.preprocessing`.
 
 
 Second Phase:
 
-1. Train the model using the quarterly data from LendingClub provided in the `Resource` folder.
+1. Trained the model using the quarterly data from LendingClub provided in the `Resource` folder.
 
 2. Calculated the balanced accuracy score from `sklearn.metrics`.
 
