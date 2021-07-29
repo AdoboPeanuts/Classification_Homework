@@ -92,4 +92,58 @@ Q3. Which model had the best geometric mean score?
     A: Both naive over sampling and smote over sampling model has the best geometric mean score at 99.37%.
 
 ---
+### Ensemble Learning
+
+In this section, I will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. I will use the [Balanced Random Forest Classifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html) and the [Easy Ensemble Classifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.EasyEnsembleClassifier.html). Refer to the documentation for each of these to read about the models and see examples of the code.
+
+First Phase:
+
+1. Read the data into a DataFrame using the provided starter code.
+
+2. Split the data into training and testing sets.
+
+3. Scale the training and testing data using the `StandardScaler` from `sklearn.preprocessing`.
+
+
+Second Phase:
+
+1. Train the model using the quarterly data from LendingClub provided in the `Resource` folder.
+
+2. Calculated the balanced accuracy score from `sklearn.metrics`.
+
+3. Displayed the confusion matrix from `sklearn.metrics`.
+
+4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
+
+5. Printed the feature importance the balanced random forest classifier, sorted in descending order (most important feature to least important) along with the feature score.
+
+
+---
+
+Q1. Which model had the best balanced accuracy score?
+
+    A: The Easy Ensemble Classifier has the best balanced accuracy score at 99.32% 
+
+Q2. Which model had the best recall score?
+
+    A: The Easy Ensemble Classifier has the best recall score at 99.28%
+
+Q3. Which model had the best geometric mean score?
+
+    A: The Easy Ensemble Classifier has the best geometric mean score at 99.32%.
+
+Q4. What are the top three features?
+
+
+    A: The top three features initialized by the Balanced Random Forest Classifier;
+    
+        i. Debt to income (21.79%)
+   
+        ii. Interest Rate (19.59%)
+
+        iii. Borrower Income (16.88%)
+
+---
+
+
 
