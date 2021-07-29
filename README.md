@@ -123,26 +123,26 @@ Second Phase:
 
 Q1. Which model had the best balanced accuracy score?
 
-    A: The Easy Ensemble Classifier has the best balanced accuracy score at 99.32% 
+    A: The Easy Ensemble Classifier has the best balanced accuracy score at 93.17% 
 
 Q2. Which model had the best recall score?
 
-    A: The Easy Ensemble Classifier has the best recall score at 99.28%
+    A: The Easy Ensemble Classifier has the best recall score at 94.24%
 
 Q3. Which model had the best geometric mean score?
 
-    A: The Easy Ensemble Classifier has the best geometric mean score at 99.32%.
+    A: The Easy Ensemble Classifier has the best geometric mean score at 93.16%.
 
 Q4. What are the top three features?
 
 
     A: The top three features initialized by the Balanced Random Forest Classifier;
     
-        i. Debt to income (21.79%)
+        i. Total Recall Principal (7.6%)
    
-        ii. Interest Rate (19.59%)
+        ii. Last Payment Amount (6.8%)
 
-        iii. Borrower Income (16.88%)
+        iii. Total Payment (5.7%)
 
 ---
 
