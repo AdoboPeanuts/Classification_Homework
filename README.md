@@ -86,7 +86,7 @@ Q1. Which model had the best balanced accuracy score?
 
 Q2. Which model had the best recall score?
 
-    A: Both naive over sampling and smote over sampling model has the best balanced accuracy score at 99.38% 
+    A: Both naive over sampling and smote over sampling model has the best recall accuracy score at 99.38% 
 
 Q3. Which model had the best geometric mean score?
 
